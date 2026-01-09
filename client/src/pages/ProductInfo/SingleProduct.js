@@ -16,6 +16,7 @@ const SingleProduct = () => {
   const [filters, setfilters] = useState({
     status: "approved",
   });
+  
 
   const { id } = useParams();
   const dispatch = useDispatch();
@@ -51,7 +52,7 @@ const SingleProduct = () => {
             <img
               src={product.images[selectedImagesIndex]}
               alt="productImg"
-              className="w-full h-96 object-cover rounded-md border border-solid"
+              className="w-full h-96 object-contain rounded-md border border-solid bg-white"
             />
             <div className="flex gap-2">
               {product.images.map((image, index) => {

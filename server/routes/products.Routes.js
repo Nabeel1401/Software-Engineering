@@ -1,4 +1,4 @@
-const authMiddlewares = require("../middlewares/authMiddlewares");
+const authMiddlewares = require("../middleware/authMiddlewares");
 const ProductModel = require("../models/products.model");
 const router = require("express").Router();
 const cloudinary= require("../config/clouldinaryConfig")

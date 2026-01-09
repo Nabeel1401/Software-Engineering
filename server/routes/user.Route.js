@@ -2,7 +2,7 @@ const router = require('express').Router();
 const UserModel = require("../models/user.model");
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
-const authMiddlewares = require('../middlewares/authMiddlewares');
+const authMiddlewares = require('../middleware/authMiddlewares');
 const { Error } = require('mongoose');
 
 //new user registration;

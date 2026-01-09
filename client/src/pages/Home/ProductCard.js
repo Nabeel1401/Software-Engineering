@@ -34,7 +34,7 @@ const ProductCard = ({ products }) => {
               </div>
               <div className="flex justify-between">
               <p className="mb-3 font-normal text-green-500">
-              &#8377; {product.price}
+              ${product.price}
                 </p>
                 <p className="text-white">
                  <span className=" text-gray-500  dark:text-gray-400">Year</span> {moment().subtract(product.age,"years").format('YYYY')}
@@ -54,9 +54,9 @@ const ProductCard = ({ products }) => {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    fill-rule="evenodd"
+                    fillrule="evenodd"
                     d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                    clip-rule="evenodd"
+                    cliprule="evenodd"
                   ></path>
                 </svg>
               </span>
