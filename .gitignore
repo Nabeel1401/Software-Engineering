@@ -3,3 +3,8 @@ server/.env
 backend/.env
 client/.env
 /node_modules
+.env
+*.zip
+*.pdf
+*.mp4
+*.exe
